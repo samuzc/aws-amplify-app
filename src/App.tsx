@@ -32,7 +32,6 @@ type Props = {
 	signOut?: () => {}
 }
 
-
 const App = (props: Props | undefined) => {
 	return (
 		<View className="App">
