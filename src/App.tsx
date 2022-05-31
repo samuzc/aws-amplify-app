@@ -17,13 +17,13 @@
 //
 // export default App;
 
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "@aws-amplify/ui-react/styles.css";
 import {
 	withAuthenticator,
 	Button,
 	Heading,
-	Image,
+	// Image,
 	View,
 	Card,
 } from "@aws-amplify/ui-react";
@@ -31,6 +31,7 @@ import {
 type Props = {
 	signOut?: () => {}
 }
+
 
 const App = (props: Props | undefined) => {
 	return (
